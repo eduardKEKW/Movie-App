@@ -1,0 +1,31 @@
+.movie-header {
+    border-left: solid 5px $color-main-yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+    height: 7vh;
+
+    &__title {
+        line-height: 3.5rem;
+    }
+
+    &__icons {
+        display: flex;
+
+        i { 
+            margin-right: 1rem;
+            font-size: 1.7rem;
+}
+    }
+    
+    &__popularity {
+        color: green;
+        font-weight: 700;
+    }
+
+    &__genres{
+        padding: .6rem;
+        padding-right: 1rem;
+    }
+}

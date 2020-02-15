@@ -1,0 +1,22 @@
+.label {
+    position: relative;
+    transition: all .4s;
+
+    &__content{
+        position: absolute;
+        top: calc(100% + .2rem);
+        left: -3rem;
+        transition: all .4s;
+        box-shadow: $shadow-main;
+        padding: .5rem;
+        white-space: nowrap;
+        background-color: $color-white;
+        color: $color-grey;
+        display: none;
+    }
+
+    &:hover > &__content {
+        display: block;
+    }
+
+}

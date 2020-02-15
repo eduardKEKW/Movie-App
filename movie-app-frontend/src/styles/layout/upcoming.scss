@@ -1,0 +1,54 @@
+.upcomings {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin-left: 0rem; 
+    padding: 1rem;
+    border-right: solid 1px $color-white;
+    max-height: 63rem;
+    min-width: 40rem;
+}
+
+
+.upcoming {
+    transition: all .5s;
+    display: flex;
+    cursor: pointer;
+    transition: transform .5s;
+    color: $color-grey;
+    background-color: $color-white;
+    padding: .7rem;
+    margin-top: 1.5rem;
+    border-left: solid .5rem $color-main-yellow;
+
+    &:hover {
+        transform: translateX(-2rem);
+    }
+
+    &__actors {
+        padding-left: .5rem;
+    }
+    
+    &__time {
+        width: 100%;
+        margin: .5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__popularity {
+        wdith: 30%;
+        font-weight: 700;
+        color: $color-green;
+    }
+
+    &__actor {
+        font-weight: 700;
+    }
+
+    &__add {
+        font-size: 3rem;
+        padding-right: .5rem;
+        color: $color-main-yellow;
+        @include center;
+    }
+}

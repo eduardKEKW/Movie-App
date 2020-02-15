@@ -1,0 +1,55 @@
+.notification {
+    position: relative;
+    z-index: 10;
+
+    &__modal {
+        overflow: hidden;
+        overflow-y: auto;
+        position: absolute;
+        top: 5rem;
+        left: -18rem;
+        width: 25rem;
+        max-height: 40rem;
+        min-height: 10rem;
+        background: $color-navigation-background;
+        box-shadow: $yellow-shadow;
+        border-radius: .2rem;
+        padding: 1rem;
+    }
+
+    &__single {
+        margin-bottom: 1rem;
+        display: flex;
+    }
+
+    &__seen {
+        padding: 1rem .5rem 1rem .5rem;
+        font-size: .8rem;
+    }
+
+    &__message {
+        margin-left: .5rem;
+    }
+
+    &__from {
+        @extend .text__main;
+    }
+
+    &__count {
+        position: absolute;
+        text-align: center;
+        left: 1rem;
+        top: -.5rem;
+        background-color: red;
+        width: 1.5rem;
+        height: 1.5rem;
+        font-weight: 700;
+        border-radius: 50%;
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+
+    &__loading{
+        font-size: 3rem;
+    }
+}

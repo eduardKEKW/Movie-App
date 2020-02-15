@@ -1,0 +1,9 @@
+.wrapper-movie {
+    width: 70%;
+    margin: 5rem auto;
+    
+    &__front {
+        display: flex;
+        width: 80%;
+    }
+}

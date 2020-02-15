@@ -1,0 +1,40 @@
+.footer {
+    width: 90%;
+    height: 30vh;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    div { @include center; }
+
+    &__follow {
+        font-size: 2rem;
+        flex-direction: column;
+    }
+
+    &__icons {
+
+        i {
+            cursor: pointer;
+            transition: all .4s;
+            font-size: 4rem;
+            margin: 1rem;
+
+            border-radius: 30%;
+            border-right: solid 1px $color-main-yellow;
+            padding: .7rem;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    &__logo {
+        @include center;
+        font-size: 4rem;
+    }
+
+    &__text {
+    }
+}

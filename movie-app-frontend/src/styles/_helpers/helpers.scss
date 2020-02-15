@@ -1,0 +1,78 @@
+.m-t-10 { margin-top: 10rem; }
+.m-t-5 { margin-top: 5rem; }
+.m-t-2 { margin-top: 2rem; }
+.m-t-1 { margin-top: 1rem; }
+.m-l-1 { margin-left: .5rem; }
+.m-r-0 { margin-right: 0rem; }
+.m-b-1 { margin-bottom: 1rem; }
+
+.p-l-s { padding-left: 3rem; }
+
+.color-avg { background-image: $color-rating-avg; }
+.color-star { color: rgb(251, 255, 0); }
+.color-user { background-color: rgb(92, 53, 184) };
+.color-amuzing { background-color: $color-rating-amuzing};
+.color-intrigue { background-color: $color-rating-intrigue};
+.color-sad { background-color: $color-rating-sad };
+.color-scarry { background-color: $color-rating-scarry};
+.color-thrill { background-color: $color-rating-thrill};
+.color-btn { background-color:rgba(84, 69, 219, 0.534)};
+.color { background-color: rgb(56, 56, 56)  };
+
+.yellow { color: $color-main-yellow; }
+.grey { color: $color-main-background; };
+
+.m-r {
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+.m-rr {
+    width: 5rem;
+    height: 5rem;
+}
+
+.s-r {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.s-rr {
+    width: 4rem;
+    height: 4rem;
+}
+
+.button-big {
+    width: 10rem;
+    height: 5rem;
+}
+
+.color-blue { color: rgba(0, 0, 255, 0.39) };
+.color-red { color: rgba(255, 0, 0, 0.247) };
+.color-white { color: rgb(255, 255, 255) };
+
+
+.flex-col {
+    display: flex;
+    width: 100%;
+}
+
+.t-m {
+    font-size: 2rem;
+}
+
+.t-s-3 {
+    font-size: 3rem;
+}
+
+.t-s-2 {
+    font-size: 2rem;
+}
+
+.t-s-1 {
+    font-size: 1.3rem;
+}
+
+.show {
+    opacity: 1!important;
+}

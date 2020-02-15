@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    color: $color-white;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 1.7;
+    background: $color-background-grad;
+    font-size: 1.65rem;
+  }
+  
+  a:link,
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  input::placeholder {
+    color: $color-white;
+    text-transform: capitalize;
+    opacity: .5;
+  }

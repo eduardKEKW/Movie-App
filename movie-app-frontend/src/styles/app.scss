@@ -1,0 +1,26 @@
+@import '_animations/_animations.scss';
+
+@import '_helpers/mixins.scss';
+@import '_helpers/variables.scss';
+
+@import 'base/_text.scss';
+@import 'base/_fonts.scss';
+@import 'base/_normalize.scss';
+
+@import 'elements/modal.scss';
+@import 'elements/notifications.scss';
+@import 'elements/separator.scss';
+@import 'elements/label.scss';
+
+@import 'layout/navigation.scss';
+@import 'layout/footer.scss';
+
+@import 'form/_form.scss';
+@import 'form/_input.scss';
+@import 'form/_button.scss';
+
+@import '_helpers/helpers.scss';
+
+
+@import 'pages/home.scss';
+@import 'pages/movie.scss';

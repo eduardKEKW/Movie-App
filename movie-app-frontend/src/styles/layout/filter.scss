@@ -1,0 +1,50 @@
+.filters {
+    display: flex;
+    transition: all 1s;
+
+    &__single {
+        position: relative;
+        width: 14rem;
+        text-align: center;
+        font-weight: 700;
+    }
+
+&__name {
+        transition: transform .4s;
+        cursor: pointer;
+        border-radius: 5%;
+        box-shadow: $shadow-main;
+        width: 90%;
+        position: absolute;
+        top: 2.6rem;
+        left: 6rem;
+        border-left: solid 5px $color-main-yellow;
+        color: $color-grey;
+        background-color: $color-white;
+        box-shadow: $shadow-inner;
+    }
+
+    &__arrow {
+        transition: color .4s;
+        font-size: 8rem;
+        color: $color-main-yellow;
+    }
+
+    &__name:hover {
+        transform: scale(1.12);
+    }
+
+    &__move {
+        transform: translateX(-10rem);
+    }
+}
+
+.search {
+    margin-left: 5%;
+    width: 60%;
+
+    &__header {
+        font-size: 2rem;
+        margin: 0 0 1rem 2.4rem;
+    }
+}
